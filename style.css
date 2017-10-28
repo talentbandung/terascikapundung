@@ -1,0 +1,145 @@
+.header {
+    border-top: 1px solid lightgrey;
+    background-image: url(img/ckpdg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    max-height: 595px;
+}
+.carousel-item.active>h1,.lead{
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-success {
+    background-color: #0c631b;
+}
+
+.intro {
+    margin: 12em 0;
+}
+
+.header a {
+    color: #fff;
+}
+
+.header .dropdown-item {
+    color: #333;
+}
+.header>.overlay {
+    min-height: 100vh;
+}
+
+.overlay {
+    color: #fff;
+    overflow: hidden;
+    background: rgba(192,192,192,0.2);
+}
+
+.btn,
+.btn:hover {
+    text-transform: uppercase;
+    transition: 0.3s;
+    color: #00e0d0;
+    border-color: #00e0d0;
+}
+
+.btn:hover {
+    background-color: #00e0d0;
+    color: black;
+}
+
+.collapse ul li :hover {
+    transition: 0.5s;
+    color: #00e0d0;
+    border-top: 1px solid yellowgreen;
+}
+
+.collapse ul li {
+    font-size: 13px;
+    font-style: bold;
+    font-family: 'Roboto';
+    display: block;
+    position: relative;
+}
+
+body {
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.intro h1 {
+    font-family: 'Myriad Pro';
+    font-size: 51px;
+}
+
+.navbar-expand-md {
+    background-color: black;
+    opacity: 0.8;
+}
+
+.navbar-extra-top {
+    font-size: 14px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.icon ul li {
+    margin: -14px;
+}
+
+.puth {
+    border-left: 1px solid white;
+}
+
+.icon ul li a :hover {
+    border: 1px solid yellow;
+}
+
+.atas {
+    border-bottom: 1px solid white;
+}
+
+/* slider */
+#slider-home .carousel-indicators {
+    position: relative;
+    top: 1rem;
+  }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+/* content */
+.row {
+    margin: 4rem;
+    padding-right: 10px;
+    }
+.card {
+    position: center;
+    background-size: cover;
+    line-height: 2;
+    min-height: 50vh;
+}
+
+.event {
+    margin: 3rem 0;
+    background-color: yellowgreen;
+  }
+.event h1 {
+    font-size: 26px;
+}
+.card-img-top {
+    height: 140px;
+}
+.jarak {
+    padding-right: 29px;
+    padding-top: 17px;
+}
+
+/*footer*/
+.sub-footer {
+    padding: 2rem 0;
+}
